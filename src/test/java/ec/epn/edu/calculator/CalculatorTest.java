@@ -46,6 +46,12 @@ class CalculatorTest {
         });
     }
 
+    @Test
+    public  void given_two_integers_when_division_then_ok(){
+        System.out.println("Test 5");
+        assertEquals(5, calc.division(25,5));
+    }
+
     //ejecutar un metodo despues de que se ejecute cualquier test
     @AfterEach
     public void tearDown(){

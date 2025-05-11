@@ -10,5 +10,8 @@ public class CalculatorExecute {
 
         int division = calc.division(30,3);
         System.out.println("Division: 30 / 3 = "+ division);
+
+        int multiplication = calc.multiplication(10,2);
+        System.out.println("Multiplication: 10 * 2 = "+ multiplication);
     }
 }

@@ -48,8 +48,8 @@ class CalculatorTest {
 
     @Test
     public  void given_two_integers_when_division_then_ok(){
-        System.out.println("Test 5");
-        assertEquals(5, calc.division(25,5));
+        System.out.println("Test 5//");
+        assertEquals(7, calc.division(35,5));
     }
 
     //ejecutar un metodo despues de que se ejecute cualquier test
